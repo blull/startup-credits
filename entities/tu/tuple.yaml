@@ -33,12 +33,11 @@ offers:
     economics:
       consideration:
         kind: variable
-        description: The startup pays for its Tuple subscription with a one-year 90% discount added.
+        description: The startup receives a one-year 90% discount added to its subscription.
       benefits:
         - benefit_id: ben_startup_discount
           kind: discount
-          description: 90% off for a year for startups.
-          applies_to: Tuple subscription
+          description: A one-year 90% discount added to your subscription.
           percentage:
             kind: exact
             basis_points: 9000
